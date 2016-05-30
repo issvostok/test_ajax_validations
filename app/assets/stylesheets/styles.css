@@ -1,0 +1,59 @@
+  html, body {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+h1, div {
+  color: white;
+}
+
+hr {
+  border: none;
+  background-color: white;
+  color: white;
+  height: 1px;
+}
+
+/* header */
+img {
+  margin:0 auto;
+  width:110px;
+  display: block;
+}
+
+.header hr {
+  margin-bottom: 75px;
+}
+
+/* body */
+
+.control-label required {
+display:inline-block;
+}
+
+body {
+  background-image: url(http://www.psdgraphics.com/file/abstract-mosaic-background.png);
+}
+
+button {
+    color: black;
+}
+
+/* main */
+.main {
+  padding-left: 200px;
+}
+
+form {
+  width: 40%;
+}
+
+form input.form-control {
+  border:0px;
+  border-radius:0px;
+}
+
+/* errors */
+.error {
+  color: #dd4b39;
+}
