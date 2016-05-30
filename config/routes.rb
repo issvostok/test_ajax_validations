@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :users
+
+  root to: 'main#index', as: :main
+  post 'users/new' => 'users#validate'
+  get 'users/new', as: :new_users
 end
